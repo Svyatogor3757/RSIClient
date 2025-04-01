@@ -9,6 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="KUKA.RSI\**" />
+    <Compile Remove="RSISensorNET\**" />
+    <EmbeddedResource Remove="KUKA.RSI\**" />
+    <EmbeddedResource Remove="RSISensorNET\**" />
+    <None Remove="KUKA.RSI\**" />
+    <None Remove="RSISensorNET\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\KUKA_RSI\KUKA_RSI.csproj" />
     <ProjectReference Include="..\RSISensor\RSISensor.csproj" />
     <ProjectReference Include="D:\Modules cpp\SettingsExtra\SettingsExtra.csproj" />
