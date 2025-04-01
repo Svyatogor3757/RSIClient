@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kuka_Client_2", "Kuka_Client_2.csproj", "{BE6CAF1B-BA94-4A09-BABB-771541209C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSISensor", "..\RSISensor\RSISensor.csproj", "{44D17D57-4761-26B1-46DF-5657CEFAE868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KUKA_RSI", "..\KUKA_RSI\KUKA_RSI.csproj", "{9C6D5A79-ABA5-ED69-94C0-1D5C1A300853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingsExtra", "D:\Modules cpp\SettingsExtra\SettingsExtra.csproj", "{8329BFA7-65F5-4BEB-AEC5-91FD16DFB5CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE6CAF1B-BA94-4A09-BABB-771541209C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6CAF1B-BA94-4A09-BABB-771541209C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6CAF1B-BA94-4A09-BABB-771541209C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6CAF1B-BA94-4A09-BABB-771541209C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D17D57-4761-26B1-46DF-5657CEFAE868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D17D57-4761-26B1-46DF-5657CEFAE868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D17D57-4761-26B1-46DF-5657CEFAE868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D17D57-4761-26B1-46DF-5657CEFAE868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6D5A79-ABA5-ED69-94C0-1D5C1A300853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6D5A79-ABA5-ED69-94C0-1D5C1A300853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6D5A79-ABA5-ED69-94C0-1D5C1A300853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6D5A79-ABA5-ED69-94C0-1D5C1A300853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8329BFA7-65F5-4BEB-AEC5-91FD16DFB5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8329BFA7-65F5-4BEB-AEC5-91FD16DFB5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8329BFA7-65F5-4BEB-AEC5-91FD16DFB5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8329BFA7-65F5-4BEB-AEC5-91FD16DFB5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {317D98B2-49FE-4C90-B6AC-3CC0E7EECBBF}
+	EndGlobalSection
+EndGlobal
