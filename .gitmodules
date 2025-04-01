@@ -1,0 +1,6 @@
+[submodule "KUKA.RSI"]
+	path = KUKA.RSI
+	url = https://github.com/Svyatogor3757/KUKA.RSI.git
+[submodule "RSISensorNET"]
+	path = RSISensorNET
+	url = https://github.com/Svyatogor3757/RSISensorNET.git
